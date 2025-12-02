@@ -44,65 +44,7 @@ export const allNavItems = [
 
     ],
   },
-
-  {
-    key: 'financial-management',
-    title: 'Financial Management',
-    icon: 'buildings',
-    items: [
-      { key: 'Borrowing', title: 'Resources Borrowing', href:  paths.dashboard.borrowing, icon: 'id-card'},
-      { key: 'ore-tax', title: 'Charges Ore Dediction ', href: paths.dashboard.oreTax, icon: 'id-card' },
-      { key: 'ore-transport', title: 'Gold Selling', href: paths.dashboard.Refined_Ore_to_Gold, icon: 'id-card' },
-      { key: 'peniltypay', title: 'Penality Payment', href: paths.dashboard.Penality_Payment, icon: 'id-card' },
-
-    ],
-  },
-  {
-    key: 'she-management',
-    title: 'SHE Management',
-    icon: 'buildings',
-    items: [
-     { key: 'Incident Management', title: 'Incident reports', href: paths.dashboard.incidentmanagement, icon: 'id-card' },
-      { key: 'incidentresolve', title: 'Incident Resolution ', href: paths.dashboard.resolveissue, icon: 'id-card' },
-     { key: 'guilty', title: 'Issue Admission of Guilty', href: paths.dashboard.guilty, icon: 'id-card' },
-     { key: 'listissuedpenality', title: 'List of Issued Penality', href: paths.dashboard.listissuedpenality, icon: 'id-card' },
-     { key: 'training', title: 'Training', href: paths.dashboard.training, icon: 'id-card' },
-     { key: 'shaftinspection', title: 'Shaft Inspection', href: paths.dashboard.shaftinspection, icon: 'id-card' },
-     { key: 'shaftinspectionResolution', title: 'Shaft Inspection Resolution', href: paths.dashboard.shaftinspectionresolution, icon: 'id-card' },
-
-    ],
-  },
-  {
-    key: 'Report-management',
-    title: 'Report Management',
-    icon: 'chart-bar',
-    items: [
-
-   { key: 'she-summary-reports', title: 'SHE Summary Report', href: paths.dashboard.shesummaryreports, icon: 'chart-pie' },
-  { key: 'shaft-history-reports', title: 'Shaft History Report', href: paths.dashboard.shafthistoryreports, icon: 'chart-pie' },
-  { key: 'Ore-reports', title: 'Ore Report', href: paths.dashboard.Ore_reports, icon: 'chart-pie' },
-  { key: 'Section-reports', title: 'Section Report', href: paths.dashboard.Section_reports, icon: 'chart-pie' },
-
-      // Legacy commented items
-    ],
-  },
-
-
-  {
-    key: 'Report-management',
-    title: 'Report Management',
-    icon: 'chart-pie',
-    items: [
-
-   { key: 'she-summary-reports', title: 'SHE Summary Report', href: paths.dashboard.shesummaryreports, icon: 'chart-pie' },
-  { key: 'shaft-history-reports', title: 'Shaft History Report', href: paths.dashboard.shafthistoryreports, icon: 'chart-pie' },
-  { key: 'Ore-reports', title: 'Ore Report', href: paths.dashboard.Ore_reports, icon: 'chart-pie' },
-  { key: 'Section-reports', title: 'Section Report', href: paths.dashboard.Section_reports, icon: 'chart-pie' },
-
-      // Legacy commented items
-    ],
-  },
-  {
+    {
     key: 'ore-management',
     title: 'Ore Management',
     icon: 'mountain',
@@ -115,17 +57,9 @@ export const allNavItems = [
 
     ],
   },
-  {
-    key: 'Site-management',
-    title: 'Site Management',
-    icon: 'tools',
-    items: [
 
-      { key: 'site-add', title: ' Create Mining Section', href:  paths.dashboard.sectioncreation, icon: 'id-card'},
-      { key: 'Sectionmapping', title: 'Section Mapping ', href:  paths.dashboard.sectionmapping, icon: 'id-card'},
 
-    ],
-  },
+
   {
     key: 'transport-management',
     title: 'Transport Management',
@@ -149,6 +83,66 @@ export const allNavItems = [
       //{ key: 'Incident Report', title: 'Incident Report ', href: paths.dashboard.Incident_Report, icon: 'mountain' },
     ],
   },
+
+  {
+    key: 'financial-management',
+    title: 'Financial Management',
+    icon: 'buildings',
+    items: [
+      { key: 'Borrowing', title: 'Resources Borrowing', href:  paths.dashboard.borrowing, icon: 'id-card'},
+      { key: 'ore-tax', title: 'Charges Ore Dediction ', href: paths.dashboard.oreTax, icon: 'id-card' },
+      { key: 'ore-transport', title: 'Gold Selling', href: paths.dashboard.Refined_Ore_to_Gold, icon: 'id-card' },
+      { key: 'peniltypay', title: 'Penality Payment', href: paths.dashboard.Penality_Payment, icon: 'id-card' },
+
+    ],
+  },
+    {
+    key: 'Report-management',
+    title: 'Report Management',
+    icon: 'chart-bar',
+    items: [
+
+   { key: 'she-summary-reports', title: 'SHE Summary Report', href: paths.dashboard.shesummaryreports, icon: 'chart-pie' },
+  { key: 'shaft-history-reports', title: 'Shaft History Report', href: paths.dashboard.shafthistoryreports, icon: 'chart-pie' },
+  { key: 'Ore-reports', title: 'Ore Report', href: paths.dashboard.Ore_reports, icon: 'chart-pie' },
+  { key: 'Section-reports', title: 'Section Report', href: paths.dashboard.Section_reports, icon: 'chart-pie' },
+
+      // Legacy commented items
+    ],
+  },
+  {
+    key: 'she-management',
+    title: 'SHE Management',
+    icon: 'buildings',
+    items: [
+     { key: 'Incident Management', title: 'Incident reports', href: paths.dashboard.incidentmanagement, icon: 'id-card' },
+      { key: 'incidentresolve', title: 'Incident Resolution ', href: paths.dashboard.resolveissue, icon: 'id-card' },
+     { key: 'guilty', title: 'Issue Admission of Guilty', href: paths.dashboard.guilty, icon: 'id-card' },
+     { key: 'listissuedpenality', title: 'List of Issued Penality', href: paths.dashboard.listissuedpenality, icon: 'id-card' },
+     { key: 'training', title: 'Training', href: paths.dashboard.training, icon: 'id-card' },
+     { key: 'shaftinspection', title: 'Shaft Inspection', href: paths.dashboard.shaftinspection, icon: 'id-card' },
+     { key: 'shaftinspectionResolution', title: 'Shaft Inspection Resolution', href: paths.dashboard.shaftinspectionresolution, icon: 'id-card' },
+
+    ],
+  },
+
+
+
+  {
+    key: 'Report-management',
+    title: 'Report Management',
+    icon: 'chart-pie',
+    items: [
+
+   { key: 'she-summary-reports', title: 'SHE Summary Report', href: paths.dashboard.shesummaryreports, icon: 'chart-pie' },
+  { key: 'shaft-history-reports', title: 'Shaft History Report', href: paths.dashboard.shafthistoryreports, icon: 'chart-pie' },
+  { key: 'Ore-reports', title: 'Ore Report', href: paths.dashboard.Ore_reports, icon: 'chart-pie' },
+  { key: 'Section-reports', title: 'Section Report', href: paths.dashboard.Section_reports, icon: 'chart-pie' },
+
+      // Legacy commented items
+    ],
+  },
+
   {
     key: 'permission',
     title: 'Record Approval Management',
